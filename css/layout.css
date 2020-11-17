@@ -34,7 +34,7 @@ header {
    height:800px;
    width: 100%;
    background-color: #fff;
-   background: #161415 url(../images/ankit_arora_bg_8.png) no-repeat top center;
+   background: #161415 url(../images/ankit_arora_bg_7.png) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    /* text-align: center; */
@@ -1021,3 +1021,7 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+.nav-name {
+   color: #84e1e6 !important;
+}
