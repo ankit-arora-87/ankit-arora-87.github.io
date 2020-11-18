@@ -34,10 +34,10 @@ header {
    height:800px;
    width: 100%;
    background-color: #fff;
-   background: #161415 url(../images/ankit_arora_bg_7.png) no-repeat top center;
+   background: #161415 url(../images/ankit_arora_bg_5.png) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
-   /* text-align: center; */
+   text-align: center;
    overflow: hidden;
 }
 
@@ -45,16 +45,17 @@ header {
 header:before {
    content: '';
    display: inline-block;
-   /* vertical-align: middle; */
+   vertical-align: middle;
    height: 100%;
 }
 header .banner {
-   float: left;
-   /* vertical-align: middle; */
+   /* float: left; */
+   display: inline-block;
+   vertical-align: text-bottom;
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
-   /* text-align: center; */
+   text-align: center;
 }
 
 header .banner-text { width: 100%; }
@@ -78,7 +79,7 @@ header .banner-text h3 a {
 }
 header .banner-text hr {
    width: 60%;
-   /* margin: 18px auto 24px auto; */
+   margin: 18px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
